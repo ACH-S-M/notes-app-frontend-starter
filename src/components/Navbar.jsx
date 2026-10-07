@@ -19,7 +19,7 @@ function Navbar() {
       <div className="navbar-links">
         {isLoggedIn ? (
           <>
-            <Link to="/add">Tambah Catatan inasu</Link>
+            <Link to="/add">Tambah Catatan</Link>
             <button type="button" onClick={handleLogout} data-cy="logout-button">
               Keluar
             </button>
